@@ -157,7 +157,7 @@ I embrace new challenges and technologies to further enhance my expertise. As a 
       <p className="pfd">Feel free to get in touch if you're interested in collaborating or working together!</p>
     <div className="medrow">{social.map((item, index)=>{
       return(
-        <Image key={index} onClick={()=>{}} alt="media" className="media" src={item.logo}/>
+        <Image key={index} onClick={()=>window.open(item.link)} alt="media" className="media" src={item.logo}/>
       )
     })}
     </div>
