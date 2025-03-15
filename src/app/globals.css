@@ -190,7 +190,7 @@ margin-bottom: 120px;
   font-size: 90px;
   color: white;
   line-height: 1;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   margin-bottom: 45px;
   margin-left: 0;
 }
@@ -471,6 +471,10 @@ margin-bottom: 30px;
     width: 85%;
   }
 
+  .tablerowg {
+    width: 85%;
+  }
+
   .smc {
     margin-top: 60px;
     width: 80%;
@@ -497,6 +501,12 @@ margin-bottom: 30px;
     width: 100%;
     flex: auto auto auto;
     flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+  }
+
+   .tablerowg {
+    width: 100%;
     justify-content: space-around;
     margin-top: 40px;
   }
@@ -538,6 +548,15 @@ margin-bottom: 30px;
 
 @media only screen and (max-width: 770px) {
   .tablerow {
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 40px;
+    min-height: 82dvw * 3;
+  }
+
+  .tablerowg {
     flex-direction: column;
     display: flex;
     width: 100%;
