@@ -48,6 +48,15 @@ const worked=[
 { 
   img: require('./media/logo/osi.png'),
   alt: 'Osis SMAN 82 Jakarta'
+},{ 
+  img: require('./media/logo/kb.svg'),
+  alt: 'Osis SMAN 82 Jakarta'
+},{ 
+  img: require('./media/logo/masc.png'),
+  alt: 'Osis SMAN 82 Jakarta'
+},{ 
+  img: require('./media/logo/rezan.png'),
+  alt: 'Osis SMAN 82 Jakarta'
 },
 ]
 
@@ -129,7 +138,7 @@ const skills=[
 
     <div className="classes gx">
       <p >Trusted By</p>
-      <div className="imgrow t">{worked.map((item, index)=>{
+      <div className="imgrow t ext">{worked.map((item, index)=>{
         return(
         <Image key={index} src={item.img} alt={item.alt} className="img"/>
       )})}</div>
