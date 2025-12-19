@@ -50,13 +50,13 @@ const worked=[
   alt: 'Osis SMAN 82 Jakarta'
 },{ 
   img: require('./media/logo/kb.svg'),
-  alt: 'Osis SMAN 82 Jakarta'
+  alt: 'Kite Betawi Project'
 },{ 
   img: require('./media/logo/masc.png'),
-  alt: 'Osis SMAN 82 Jakarta'
+  alt: 'Raingers Project'
 },{ 
   img: require('./media/logo/rezan.png'),
-  alt: 'Osis SMAN 82 Jakarta'
+  alt: 'Resanez Project'
 },
 ]
 
