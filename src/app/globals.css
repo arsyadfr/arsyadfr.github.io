@@ -190,7 +190,7 @@ margin-bottom: 120px;
   font-size: 90px;
   color: white;
   line-height: 1;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   margin-bottom: 45px;
   margin-left: 0;
 }
@@ -383,6 +383,10 @@ margin-bottom: 30px;
   display: flex;
 }
 
+.ext {
+  width: 80% !important;
+}
+
 .medrow {
   flex-direction: row;
   display: flex;
@@ -471,10 +475,6 @@ margin-bottom: 30px;
     width: 85%;
   }
 
-  .tablerowg {
-    width: 85%;
-  }
-
   .smc {
     margin-top: 60px;
     width: 80%;
@@ -490,7 +490,7 @@ margin-bottom: 30px;
   }
 
   .imgrow {
-    width: 50%;
+    width: 70%;
   }
 }
 
@@ -501,12 +501,6 @@ margin-bottom: 30px;
     width: 100%;
     flex: auto auto auto;
     flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 40px;
-  }
-
-   .tablerowg {
-    width: 100%;
     justify-content: space-around;
     margin-top: 40px;
   }
@@ -556,13 +550,13 @@ margin-bottom: 30px;
     min-height: 82dvw * 3;
   }
 
-  .tablerowg {
-    flex-direction: column;
-    display: flex;
-    width: 100%;
-    align-items: center;
-    margin-top: 40px;
-    min-height: 82dvw * 3;
+  .ext{
+     flex-wrap: wrap;
+  }
+
+  .ext img {
+    flex: 0 0 20%;
+    margin-bottom: 30px;
   }
 
   .smc {
@@ -605,6 +599,7 @@ margin-bottom: 30px;
   .prof {
     width: 45vw;
     margin-bottom: 45px;
+    margin-top: 30px;
     margin-right: 0 !important;
   }
 
@@ -695,7 +690,7 @@ margin-bottom: 30px;
   }
 
   .get-to-know {
-    font-size: 50px;
+    font-size: 45px;
   }
 }
 
