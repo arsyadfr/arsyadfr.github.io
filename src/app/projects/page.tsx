@@ -39,6 +39,24 @@ export default function Projects() {
             image: require('../media/logo/pedra.png'),
             desc: "College organitazion leader election site to choose who is worthy to become the leader"
           ,link: 'https://pedrapreview.web.app/'
+          },
+          {
+            title: 'Kite Betawi Project',
+            image: require('../media/logo/kb.svg'),
+            desc: "A learning website for Bahasa Betawi that contain many quiz & games (non responsive)"
+          ,link: 'https://previfes.netlify.app/?web=https://kitebetawi.web.app/'
+          },
+          {
+            title: 'Raingers Project',
+            image: require('../media/logo/masc.png'),
+            desc: "A hopscotch based game about flood survival & safety education (non responsive)"
+          ,link: 'https://previfes.netlify.app/?web=https://raingersproject.web.app'
+          },
+          {
+            title: 'Resanez Project',
+            image: require('../media/logo/rezan.png'),
+            desc: "A snake and ladder based game about disaster survival education (non responsive)"
+          ,link: 'https://previfes.netlify.app/?web=https://resanezproject.web.app'
           }
         ]
 
