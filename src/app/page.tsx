@@ -120,7 +120,7 @@ const skills=[
     <div className="classes">
       <h1 className="hia-1">Hi, Im Arsyad!</h1>
       <h2 className="hia-2">A Web Developer.</h2>
-      <p className="pfd pd">A highly motivated junior web developer with 2 years of freelance experience, actively seeking opportunities to expand knowledge and skills, while currently pursuing education as a highschool student at the age of 16.</p>
+      <p className="pfd pd">A highly motivated junior web developer with 3 years of freelance experience, actively seeking opportunities to expand knowledge and skills, while currently pursuing education as a highschool student at the age of 17.</p>
     </div>
     <div className=" ble classes" >
       <p className="pfd sw">Selected Work</p>
